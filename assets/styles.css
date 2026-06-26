@@ -326,8 +326,8 @@ body.home .nav:not(.scrolled):not(.menu-open) .nav-toggle{color:#fff}
 .phead-photo>.bgphoto-img{position:absolute;inset:0;z-index:0;background-size:cover;background-position:center;background-repeat:no-repeat}
 .phead-photo::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;border-radius:inherit;
   background:
-    linear-gradient(180deg,rgba(74,52,38,.12) 0%,rgba(74,52,38,0) 32%,rgba(74,52,38,.42) 66%,rgba(74,52,38,.82) 100%),
-    linear-gradient(90deg,rgba(74,52,38,.62) 0%,rgba(74,52,38,.26) 40%,rgba(74,52,38,0) 70%)}
+    linear-gradient(180deg,rgba(var(--mist,92,64,46),.12) 0%,rgba(var(--mist,92,64,46),0) 32%,rgba(var(--mist,92,64,46),.42) 66%,rgba(var(--mist,92,64,46),.82) 100%),
+    linear-gradient(95deg,rgba(var(--mist,92,64,46),.62) 0%,rgba(var(--mist,92,64,46),.26) 40%,rgba(var(--mist,92,64,46),0) 72%)}
 .phead-photo>.phead-ghost,.phead-photo>.kicker,.phead-photo>h1,.phead-photo>.psub{position:relative;z-index:2}
 .phead-photo .phead-ghost{color:rgba(255,255,255,.26)}
 .phead-photo .kicker{color:rgba(255,255,255,.88)}

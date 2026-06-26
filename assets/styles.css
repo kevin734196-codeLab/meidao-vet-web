@@ -47,25 +47,41 @@ a{color:inherit;text-decoration:none}
 
 /* ---------- hero (editorial framed) ---------- */
 .hero{padding:14px;background:linear-gradient(180deg,#cddee4 0%,var(--paper) 42%)}
-.frameH{position:relative;border-radius:24px;overflow:hidden;
+.frameH{position:relative;border-radius:24px;overflow:hidden;display:flex;align-items:center;
   min-height:clamp(580px,92svh,980px);box-shadow:0 44px 100px -54px rgba(60,50,40,.65)}
+/* blurred fill of the same image -> full image-derived background, no empty column */
+.hero-blur{position:absolute;inset:0;z-index:0;background:url('media/clinic-interior.png?r=1') center/cover no-repeat;
+  filter:blur(36px) saturate(118%) brightness(.96);transform:scale(1.18)}
+/* sharp whole image, contained on the right (radial = fallback if image missing) */
 .hero-bg{position:absolute;inset:0;z-index:0;background:
-  radial-gradient(125% 92% at 68% 16%, #f4dccc 0%, #ecc6b0 30%, #dcab8f 52%, #bd9277 74%, #7e6b5c 100%)}
-.hero-bg.hero-photo{background:
-  url('media/clinic-interior.png?r=1') right center/contain no-repeat,
   radial-gradient(120% 100% at 28% 34%, #f4dccc 0%, #ecc6b0 32%, #dcab8f 56%, #bd9277 78%, #7e6b5c 100%)}
-.hero-bg::after{content:"";position:absolute;inset:0;background:
-  linear-gradient(180deg, rgba(150,108,94,.52) 0%, rgba(150,108,94,.10) 28%, rgba(150,108,94,0) 52%, rgba(150,108,94,.62) 100%)}
-.hero-bg span{position:absolute;left:50%;top:53%;transform:translate(-50%,-50%);z-index:1;
-  font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.5)}
-.hero-display{position:absolute;top:6px;left:0;right:0;z-index:3;text-align:center;pointer-events:none;
-  font-family:var(--serif);font-weight:700;color:#fff;line-height:.92;letter-spacing:.03em;
-  font-size:clamp(72px,16.5vw,232px);white-space:nowrap;text-shadow:0 2px 34px rgba(0,0,0,.28)}
-.hero-copy{position:absolute;left:0;bottom:clamp(28px,5vw,62px);z-index:3;
-  padding:0 clamp(22px,4vw,56px);max-width:520px}
-.hero-copy .sub{color:#fff;font-size:12px;letter-spacing:.26em;text-transform:uppercase;opacity:.92;margin-bottom:14px}
-.hero-copy .body{color:#f6f0ea;font-size:clamp(15px,1.5vw,18px);line-height:1.7;max-width:34ch;
-  margin-bottom:26px;text-shadow:0 1px 14px rgba(0,0,0,.4)}
+.hero-bg.hero-photo{background:url('media/clinic-interior.png?r=1') right center/contain no-repeat;
+  transform:scale(1.03);animation:heroZoom 18s var(--ease) forwards}
+@keyframes heroZoom{to{transform:scale(1)}}
+/* warm readability mist: sage->cocoa->blush diagonal (strong bottom-left under text, clears over the cat) */
+.hero-mist{position:absolute;inset:0;z-index:1;pointer-events:none;background:
+  linear-gradient(105deg, rgba(60,77,67,.72) 0%, rgba(96,72,60,.40) 34%, rgba(150,108,94,.10) 56%, rgba(150,108,94,0) 74%),
+  linear-gradient(0deg, rgba(34,31,26,.52) 0%, rgba(34,31,26,.06) 30%, rgba(34,31,26,0) 55%)}
+.hero-body{position:relative;z-index:3;max-width:var(--maxw);margin:0 auto;width:100%;padding:0 clamp(22px,4vw,56px)}
+.hero-col{max-width:600px}
+.hero-eyebrow{display:inline-flex;align-items:center;gap:10px;color:#fff;opacity:.95;margin-bottom:20px;text-shadow:0 1px 10px rgba(0,0,0,.5)}
+.hero-eyebrow .rule{width:34px;height:1px;background:rgba(255,255,255,.7)}
+.hero-display{font-family:var(--serif);font-weight:700;color:#fff;line-height:1.02;letter-spacing:.02em;
+  font-size:clamp(60px,10vw,150px);text-shadow:0 4px 40px rgba(0,0,0,.32)}
+.hero-sub{color:#f4ece4;font-size:clamp(15px,1.6vw,19px);line-height:1.8;max-width:40ch;margin:24px 0 0;
+  text-shadow:0 1px 14px rgba(0,0,0,.5)}
+.hero-col .cta-row{margin-top:30px}
+.trust{display:flex;gap:clamp(18px,4vw,46px);margin-top:clamp(30px,5vh,56px);flex-wrap:wrap}
+.trust .t{color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.5)}
+.trust .t b{font-family:var(--serif);font-weight:700;font-size:clamp(22px,2.4vw,32px);display:block;line-height:1.1}
+.trust .t span{font-size:12.5px;letter-spacing:.04em;opacity:.9}
+.trust .div{width:1px;align-self:stretch;background:rgba(255,255,255,.28)}
+.scrollcue{position:absolute;left:50%;bottom:24px;transform:translateX(-50%);z-index:3;display:flex;flex-direction:column;align-items:center;gap:8px;color:#fff;opacity:.85;pointer-events:none}
+.scrollcue .lbl{font-size:10px;letter-spacing:.3em;text-transform:uppercase;writing-mode:vertical-rl;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.scrollcue .ln{width:1px;height:32px;background:linear-gradient(#fff,transparent);animation:heroCue 1.8s var(--ease) infinite}
+@keyframes heroCue{0%{transform:scaleY(.3);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}50.1%{transform-origin:bottom}100%{transform:scaleY(.3);transform-origin:bottom}}
+@media(max-width:760px){.hero-col{max-width:none}.scrollcue{display:none}}
+@media(prefers-reduced-motion:reduce){.hero-bg.hero-photo{animation:none;transform:none}.scrollcue .ln{animation:none}}
 .cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
 .cta-round{display:inline-flex;align-items:center;gap:12px;background:var(--clay);color:#fff;
   border-radius:999px;padding:7px 7px 7px 22px;font-weight:500;font-size:15px;transition:.22s var(--ease)}

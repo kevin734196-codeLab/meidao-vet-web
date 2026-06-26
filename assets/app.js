@@ -9,6 +9,7 @@ const I18N = { en:{
   "hero.photo":"TODO · clinic / pet photography","hero.display":"ENTRUSTED CARE","hero.sub":"Your pet's family doctor · Xitun, Taichung",
   "hero.body":"Led by a Japan-trained director, with the quiet, careful, precise Japanese way of caring for every pet in Xitun. Medicine, grooming and boarding, all in one place.",
   "card.k":"Trusted care","card.s1":"20 years in Xitun, caring for countless families' pets.","card.s2":"Japan-trained director — consults in Chinese, English & Japanese.","card.s3":"Medicine, grooming and boarding — all under one roof.",
+  "hero.t1":"in Xitun","hero.t2":"3 languages","hero.t3":"all-in-one",
   /* home pet scroll-film */
   "pet.kicker":"Everyday at 梅島","pet.h2":"Here, every pet feels right at home","pet.sub":"Dogs and cats boarded separately, watched closely by the medical team — so every stay stays calm and warm.",
   /* home 院所環境 split */

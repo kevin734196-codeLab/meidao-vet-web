@@ -137,8 +137,9 @@ section{position:relative}
 .band-sage .kicker{color:#bcd0c4}.band-sage .sec-head h2{color:var(--porcelain)}
 
 /* reveal-on-scroll */
-.r{opacity:0;transform:translateY(26px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
-.r.in{opacity:1;transform:none}
+.r{transition:opacity .7s var(--ease),transform .7s var(--ease)}
+html.reveal .r{opacity:0;transform:translateY(26px)}
+html.reveal .r.in{opacity:1;transform:none}
 
 /* services cards */
 .svc{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}

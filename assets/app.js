@@ -85,9 +85,12 @@ if(nav){const onScroll=()=>nav.classList.toggle("scrolled",window.scrollY>40);on
 const reduce=matchMedia("(prefers-reduced-motion:reduce)").matches;
 const heroEl=document.querySelector(".hero");
 if(heroEl)requestAnimationFrame(()=>heroEl.classList.add("in"));
-if(!reduce){
-  const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.18});
+if(!reduce&&"IntersectionObserver" in window){
+  document.documentElement.classList.add("reveal");
+  const io=new IntersectionObserver((es)=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12,rootMargin:"0px 0px -5% 0px"});
   document.querySelectorAll(".r,.story").forEach(el=>io.observe(el));
+  // self-heal: never leave content hidden if the observer misses (mobile flings, bfcache restore, throttled tabs)
+  addEventListener("load",()=>setTimeout(()=>document.querySelectorAll(".r:not(.in),.story:not(.in)").forEach(el=>el.classList.add("in")),1800));
 }else{document.querySelectorAll(".r,.story").forEach(el=>el.classList.add("in"))}
 
 /* mobile menu — inject hamburger + panel (keeps all 4 pages' markup DRY) */

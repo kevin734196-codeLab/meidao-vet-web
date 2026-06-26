@@ -6,7 +6,7 @@ const I18N = { en:{
   "nav.services":"Services","nav.about":"About","nav.visit":"Visit","nav.home":"Home",
   "cta.book":"Book on LINE","cta.call":"Call us","cta.tel":"04-2462-6616",
   /* home hero + card */
-  "hero.photo":"TODO · clinic / pet photography","hero.display":"ENTRUSTED CARE","hero.sub":"Your pet's family doctor · Xitun, Taichung",
+  "hero.display":"ENTRUSTED CARE","hero.sub":"Your pet's family doctor · Xitun, Taichung",
   "hero.body":"Led by a Japan-trained director, with the quiet, careful, precise Japanese way of caring for every pet in Xitun. Medicine, grooming and boarding, all in one place.",
   "card.k":"Trusted care","card.s1":"20 years in Xitun, caring for countless families' pets.","card.s2":"Japan-trained director — consults in Chinese, English & Japanese.","card.s3":"Medicine, grooming and boarding — all under one roof.",
   "hero.t1":"in Xitun","hero.t2":"3 languages","hero.t3":"all-in-one",
@@ -31,15 +31,15 @@ const I18N = { en:{
   /* visit / hours */
   "visit.kicker":"Visit us","visit.h2":"Booking welcome","visit.addrk":"Address","visit.telk":"Phone","visit.hrk":"Mon–Sat","visit.sunk":"Sunday","visit.sunv":"Closed","visit.map":"Open in Google Maps",
   /* footer */
-  "foot.tag":"Xitun, Taichung · 20 years of refined Japanese care<br>Medicine · Grooming · Boarding","foot.contact":"Contact","foot.hours":"Hours","foot.hr1":"Mon–Sat　09:00 – 21:30","foot.hr2":"Sunday　Closed","foot.note":"Site not yet live · content pending clinic approval",
+  "foot.tag":"Xitun, Taichung · 20 years of refined Japanese care<br>Medicine · Grooming · Boarding","foot.contact":"Contact","foot.hours":"Hours","foot.hr1":"Mon–Sat　09:00 – 21:30","foot.hr2":"Sunday　Closed","foot.note":"Site not yet live",
 
   /* ===== SERVICES page ===== */
   "sp.kicker":"Services","sp.h1":"Complete care, under one roof","sp.sub":"From everyday medicine to grooming and boarding — equipped and staffed for a pet's whole life.",
-  "sm.h":"General Medicine","sm.p1":"Internal and surgical care backed by full in-house equipment, so diagnosis and treatment happen in one place.","sm.p2":"The director keeps every step on a meticulous Japanese-style flow — careful, calm, precise.","sm.fig":"TODO · consult room / equipment photo",
+  "sm.h":"General Medicine","sm.p1":"Internal and surgical care backed by full in-house equipment, so diagnosis and treatment happen in one place.","sm.p2":"The director keeps every step on a meticulous Japanese-style flow — careful, calm, precise.",
   "sm.c1":"Digital X-ray","sm.c2":"Ultrasound","sm.c3":"Blood analyser","sm.c4":"Surgery","sm.c5":"Gas anaesthesia","sm.c6":"Ultrasonic dental scaling",
-  "sg.h":"Pet Grooming","sg.p1":"Led by a Class-B certified groomer, with a strict medical/grooming separation so a grooming visit never crosses with sick patients.","sg.p2":"Wash, cut and finish are balanced with skin and coat health — not styling alone.","sg.fig":"TODO · grooming room photo",
+  "sg.h":"Pet Grooming","sg.p1":"Led by a Class-B certified groomer, with a strict medical/grooming separation so a grooming visit never crosses with sick patients.","sg.p2":"Wash, cut and finish are balanced with skin and coat health — not styling alone.",
   "sg.c1":"Class-B certified","sg.c2":"Medical / grooming separated","sg.c3":"Skin & coat health",
-  "sb.h":"Boarding","sb.p1":"Dogs and cats board in separate areas to cut cross-stress and keep the stay calm.","sb.p2":"The medical team is right next door, so anything unusual is caught early.","sb.fig":"TODO · boarding area photo",
+  "sb.h":"Boarding","sb.p1":"Dogs and cats board in separate areas to cut cross-stress and keep the stay calm.","sb.p2":"The medical team is right next door, so anything unusual is caught early.",
   "sb.c1":"Dog / cat separated","sb.c2":"Medical team nearby","sb.c3":"Calm, low-stress",
 
   /* ===== ABOUT page ===== */

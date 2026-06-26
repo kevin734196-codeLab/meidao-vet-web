@@ -253,12 +253,13 @@ footer a:hover{color:var(--clay)}
   .nav-cta{display:none}
 }
 @media(max-width:760px){
-  .frameH{min-height:88svh}
-  .hero-display{font-size:clamp(50px,15vw,92px);top:64px}
-  .hero-copy{bottom:auto;top:clamp(150px,27vh,210px);max-width:none}
-  .hero-copy .body{max-width:30ch}
-  .glass{left:14px;right:14px;bottom:14px;width:auto}
-  .glass .gs{min-height:3.6em}
+  /* stack hero vertically: text block, then glass card in normal flow (no overlap with .trust) */
+  .frameH{min-height:88svh;flex-direction:column;justify-content:center;align-items:stretch}
+  .hero-display{font-size:clamp(50px,15vw,92px)}
+  .hero-body{padding-top:clamp(92px,16vh,132px);padding-bottom:4px}
+  .trust{margin-top:clamp(22px,4vh,40px)}
+  .glass{position:static;width:auto;align-self:stretch;margin:clamp(20px,4vh,30px) 14px clamp(16px,3vh,24px)}
+  .glass .gs{min-height:3.4em}
 }
 @media(prefers-reduced-motion:reduce){
   *{transition:none!important;animation:none!important}

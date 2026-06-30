@@ -41,6 +41,7 @@ const I18N = { en:{
   "sg.c1":"Class-B certified","sg.c2":"Medical / grooming separated","sg.c3":"Skin & coat health",
   "sb.h":"Boarding","sb.p1":"Dogs and cats board in separate areas to cut cross-stress and keep the stay calm.","sb.p2":"The medical team is right next door, so anything unusual is caught early.",
   "sb.c1":"Dog / cat separated","sb.c2":"Medical team nearby","sb.c3":"Calm, low-stress",
+  "sd.h":"In-house Pharmacy","sd.p1":"Our own in-house pharmacy stocks both Western medicine and Chinese herbal formulas, so you collect everything the same visit — no extra trip.","sd.p2":"Every dose is measured and labelled to each pet's condition and weight.","sd.c1":"Dispensed in-house","sd.c2":"Western & herbal","sd.c3":"Same-visit pickup",
 
   /* ===== ABOUT page ===== */
   "ap.kicker":"About 梅島","ap.h1":"A Japanese standard of care, in Xitun","ap.sub":"Twenty years caring for the neighbourhood's pets, led by a Japan-trained director.",

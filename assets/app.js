@@ -7,47 +7,45 @@ const I18N = { en:{
   "cta.book":"Book on LINE","cta.call":"Call us","cta.tel":"04-2462-6616",
   /* home hero + card */
   "hero.display":"ENTRUSTED CARE","hero.sub":"Your pet's family doctor · Xitun, Taichung",
-  "hero.body":"Led by a Japan-trained director, with the quiet, careful, precise Japanese way of caring for every pet in Xitun. Medicine, grooming and boarding, all in one place.",
-  "card.k":"Trusted care","card.s1":"20 years in Xitun, caring for countless families' pets.","card.s2":"Japan-trained director — consults in Chinese, English & Japanese.","card.s3":"Medicine, grooming and boarding — all under one roof.",
-  "hero.t1":"in Xitun","hero.t2":"3 languages","hero.t3":"all-in-one",
+  "hero.body":"Led by a Japan-trained director, we support pets through diagnosis, treatment, surgery, preventive care and long-term follow-up with calm, careful clinical care.",
+  "card.k":"Trusted care","card.s1":"20 years in Xitun, caring for countless families' pets.","card.s2":"Japan-trained director — consults in Chinese, English & Japanese.","card.s3":"Diagnosis, treatment and follow-up care in one clinic.",
+  "hero.t1":"in Xitun","hero.t2":"3 languages","hero.t3":"medical care",
   /* home pet scroll-film */
-  "pet.kicker":"Everyday at 梅島","pet.h2":"Here, every pet feels right at home","pet.sub":"Dogs and cats boarded separately, watched closely by the medical team — so every stay stays calm and warm.",
+  "pet.kicker":"Everyday at 梅島","pet.h2":"Here, every visit stays calm","pet.sub":"A quiet clinic flow, careful observation and clear follow-up guidance help pets receive care with less stress.",
   /* home 院所環境 split */
-  "scene.kicker":"Our space","scene.h":"A calm space that feels like home","scene.p1":"Bright, quiet, spotless consult and boarding areas — so pets start to relax the moment they walk in.","scene.p2":"Dogs and cats kept separate, watched closely by the medical team, keeping every stay warm and gentle.",
-  "scene.c1":"Dog / cat separated","scene.c2":"Medical team nearby","scene.c3":"Low-stress",
+  "scene.kicker":"Our space","scene.h":"A calm clinic for diagnosis and follow-up","scene.p1":"Bright, quiet consult rooms and in-house equipment support examination, diagnosis and treatment without unnecessary transfers.","scene.p2":"The team keeps each visit steady and low-stress, with clear explanations for follow-up care at home.",
+  "scene.c1":"Consult rooms","scene.c2":"In-house equipment","scene.c3":"Low-stress care",
   /* home services teaser */
-  "services.kicker":"Services","services.h2":"One animal hospital for a lifetime of care",
-  "svc.med.t":"General Medicine","svc.med.d":"Full equipment — X-ray, ultrasound, blood analysis, surgery, gas anaesthesia, ultrasonic dental scaling — with meticulous Japanese-style process.","svc.med.tag":"Internal · Surgery · Imaging · Dental",
-  "svc.groom.t":"Pet Grooming","svc.groom.d":"Led by a Class-B certified groomer, kept separate from the medical flow, balancing styling with skin health.","svc.groom.tag":"Certified groomer · medical-separated",
-  "svc.bo9.t":"Boarding","svc.bo9.d":"Dogs and cats boarded separately to reduce stress, watched closely by the medical team.","svc.bo9.tag":"Dog/cat separated · staff nearby",
+  "services.kicker":"Clinical care","services.h2":"Medical care for each life stage",
+  "svc.med.t":"General Medicine","svc.med.d":"Consultation, diagnosis, imaging, bloodwork, surgery, anaesthesia and dental scaling with structured follow-up.","svc.med.tag":"Diagnosis · Surgery · Imaging · Dental",
+  "svc.groom.t":"Skin & Coat Care","svc.groom.d":"Skin and coat care is handled with medical separation and observation, so cleaning and trimming support comfort and health.","svc.groom.tag":"Skin observation · separated flow",
+  "svc.rx.t":"Medication & Follow-up","svc.rx.d":"In-house dispensing, medication guidance and follow-up consultation help long-term and senior-pet care stay consistent.","svc.rx.tag":"Medication · Recheck · Senior care",
   /* home story */
   "story.kicker":"About · From the director","story.h2":"Bringing Japan back to Xitun,<br>one visit at a time",
   "story.p1":"Dr. Tu, our director, trained in Japan and speaks both English and Japanese — drawing expat families from across the city.",
   "story.p2":"He brings a <span class='em'>refined, quiet, attentive</span> Japanese standard into the consult room, returning to Japan regularly to bring back newer techniques and medicines for Xitun's pets.",
   /* vaccine LINE CTA */
   "vacc.kicker":"LINE health reminders","vacc.h2":"Add us on LINE — never miss<br>a vaccine or recheck",
-  "vacc.p":"Once your pet is linked, we'll proactively remind you on LINE before rabies vaccines, regular rechecks and grooming packages expire.",
-  "vacc.cta":"Add LINE for reminders","vacc.l1":"Reminded 30 days before due","vacc.l2":"Never miss a chronic recheck","vacc.l3":"Notified 14 days before expiry",
+  "vacc.p":"Once your pet is linked, we'll proactively remind you on LINE before rabies vaccines, preventive care and regular rechecks.",
+  "vacc.cta":"Add LINE for reminders","vacc.l1":"Reminded 30 days before due","vacc.l2":"Never miss a chronic recheck","vacc.l3":"Preventive care follow-up",
   /* visit / hours */
   "visit.kicker":"Visit us","visit.h2":"Booking welcome","visit.addrk":"Address","visit.telk":"Phone","visit.hrk":"Mon–Sat","visit.sunk":"Sunday","visit.sunv":"Closed","visit.map":"Open in Google Maps",
   /* footer */
-  "foot.tag":"Xitun, Taichung · 20 years of refined Japanese care<br>Medicine · Grooming · Boarding","foot.contact":"Contact","foot.hours":"Hours","foot.hr1":"Mon–Sat　09:00 – 21:30","foot.hr2":"Sunday　Closed","foot.note":"Site not yet live",
+  "foot.tag":"Xitun, Taichung · 20 years of refined Japanese care<br>Diagnosis · Surgery · Preventive care","foot.contact":"Contact","foot.hours":"Hours","foot.hr1":"Mon–Sat　09:00 – 21:30","foot.hr2":"Sunday　Closed","foot.note":"Site not yet live",
 
   /* ===== SERVICES page ===== */
-  "sp.kicker":"Services","sp.h1":"Complete care, under one roof","sp.sub":"From everyday medicine to grooming and boarding — equipped and staffed for a pet's whole life.",
-  "sm.h":"General Medicine","sm.p1":"Internal and surgical care backed by full in-house equipment, so diagnosis and treatment happen in one place.","sm.p2":"The director keeps every step on a meticulous Japanese-style flow — careful, calm, precise.",
+  "sp.kicker":"Clinical care","sp.h1":"Diagnosis, treatment and long-term care","sp.sub":"From routine consultation to surgery, dental care, preventive care and follow-up, we support each pet's health over time.",
+  "sm.h":"General Medicine","sm.p1":"Internal medicine, imaging, bloodwork and surgery experience are supported by in-house equipment, so diagnosis and treatment can move efficiently.","sm.p2":"The director keeps each clinical step careful and calm, with clear explanations and follow-up plans for home care.",
   "sm.c1":"Digital X-ray","sm.c2":"Ultrasound","sm.c3":"Blood analyser","sm.c4":"Surgery","sm.c5":"Gas anaesthesia","sm.c6":"Ultrasonic dental scaling",
-  "sg.h":"Pet Grooming","sg.p1":"Led by a Class-B certified groomer, with a strict medical/grooming separation so a grooming visit never crosses with sick patients.","sg.p2":"Wash, cut and finish are balanced with skin and coat health — not styling alone.",
-  "sg.c1":"Class-B certified","sg.c2":"Medical / grooming separated","sg.c3":"Skin & coat health",
-  "sb.h":"Boarding","sb.p1":"Dogs and cats board in separate areas to cut cross-stress and keep the stay calm.","sb.p2":"The medical team is right next door, so anything unusual is caught early.",
-  "sb.c1":"Dog / cat separated","sb.c2":"Medical team nearby","sb.c3":"Calm, low-stress",
-  "sd.h":"In-house Pharmacy","sd.p1":"Our own in-house pharmacy stocks both Western medicine and Chinese herbal formulas, so you collect everything the same visit — no extra trip.","sd.p2":"Every dose is measured and labelled to each pet's condition and weight.","sd.c1":"Dispensed in-house","sd.c2":"Western & herbal","sd.c3":"Same-visit pickup",
+  "sg.h":"Skin & Coat Care","sg.p1":"Cleaning and trimming are arranged with a separated clinical flow, reducing contact with sick patients and keeping skin observation in view.","sg.p2":"Care focuses on skin condition, coat hygiene and comfort, with medical consultation recommended when symptoms are found.",
+  "sg.c1":"Skin observation","sg.c2":"Separated flow","sg.c3":"Care guidance",
+  "sd.h":"Medication & Follow-up","sd.p1":"In-house dispensing supports treatment after consultation, with medication instructions based on each pet's condition and weight.","sd.p2":"For chronic disease, senior-pet care or post-surgery recovery, follow-up consultation helps the care plan stay consistent.","sd.c1":"In-house dispensing","sd.c2":"Recheck guidance","sd.c3":"Senior-pet care",
 
   /* ===== ABOUT page ===== */
   "ap.kicker":"About 梅島","ap.h1":"A Japanese standard of care, in Xitun","ap.sub":"Twenty years caring for the neighbourhood's pets, led by a Japan-trained director.",
   "ab.h":"Bringing Japan back to every visit","ab.p1":"Dr. Tu, our director, trained in Japan and consults in Chinese, English and Japanese — which is why expat families across the city find their way here.",
   "ab.p2":"He brings a <span class='em'>refined, quiet, attentive</span> Japanese standard into the consult room, and returns to Japan regularly to bring back newer techniques and medicines.",
-  "ab.p3":"Twenty years in, that same standard now sits behind every diagnosis, every surgery, and every grooming and boarding stay.",
+  "ab.p3":"Twenty years in, that same standard now sits behind every diagnosis, every surgery, every recheck and every long-term health plan.",
   "ph.k":"Our standard","ph.h":"Three things we never rush",
   "ph1.t":"Careful","ph1.p":"Small signs matter. We examine thoroughly and explain what we find, plainly.",
   "ph2.t":"Calm","ph2.p":"A quiet clinic is a kinder clinic. We keep stress low for pet and owner alike.",
@@ -57,7 +55,7 @@ const I18N = { en:{
   /* ===== CONTACT page ===== */
   "cp.kicker":"Visit & Contact","cp.h1":"Come see us","cp.sub":"Booking is by LINE or phone — message us and we'll confirm a time.",
   "cb.h":"Book the easy way — on LINE","cb.p":"Add our LINE official account, tell us your pet and a preferred time, and we'll confirm. Prefer to talk? Just call.",
-  "cb.cta":"Book on LINE","cn.h":"Before your first visit","cn.p":"If you have them, bring your pet's <b>past records and vaccination history</b>. For boarding or grooming, message us ahead so we can hold a slot.",
+  "cb.cta":"Book on LINE","cn.h":"Before your first visit","cn.p":"If you have them, bring your pet's <b>past records, medication list and vaccination history</b>. For follow-up consultation, please share the current symptoms and previous test results in advance.",
   "contact.fbk":"Find us on Facebook"
 }};
 
@@ -81,6 +79,17 @@ try{const s=localStorage.getItem("meidao_lang");if(s==="en")setLang("en")}catch(
 const nav=document.getElementById("nav");
 if(nav){const onScroll=()=>nav.classList.toggle("scrolled",window.scrollY>40);onScroll();
   window.addEventListener("scroll",onScroll,{passive:true});}
+
+const mbar=document.querySelector(".mbar");
+if(mbar){
+  const onMbar=()=>{
+    const threshold=Math.min(560,window.innerHeight*.62);
+    mbar.classList.toggle("show",window.innerWidth<=880&&window.scrollY>threshold);
+  };
+  onMbar();
+  window.addEventListener("scroll",onMbar,{passive:true});
+  window.addEventListener("resize",onMbar);
+}
 
 /* hero + scroll reveals */
 const reduce=matchMedia("(prefers-reduced-motion:reduce)").matches;
@@ -131,12 +140,54 @@ if(!reduce&&"IntersectionObserver" in window){
   const slides=[...document.querySelectorAll("#glass .gs")];
   const wrap=document.getElementById("dots");
   if(!slides.length||!wrap)return;
-  let ci=0,timer=null;
+  let ci=0,timer=null,startX=0,startY=0,dragging=false,lastAction=0;
   slides.forEach((_,i)=>{const b=document.createElement("button");if(i===0)b.className="on";
     b.setAttribute("aria-label","顯示第 "+(i+1)+" 則");b.addEventListener("click",()=>{show(i);restart()});wrap.appendChild(b)});
   const dots=[...wrap.children];
   function show(i){ci=i;slides.forEach((s,j)=>s.hidden=j!==i);dots.forEach((d,j)=>d.classList.toggle("on",j===i))}
-  function adv(){show((ci+1)%slides.length)}
+  function next(){show((ci+1)%slides.length)}
+  function prev(){show((ci-1+slides.length)%slides.length)}
+  function adv(){next()}
   function restart(){if(timer){clearInterval(timer);timer=setInterval(adv,4500)}}
+  function begin(x,y){dragging=true;startX=x;startY=y}
+  function finish(x,y){
+    if(!dragging)return false;
+    dragging=false;
+    const dx=x-startX,dy=y-startY;
+    if(Math.abs(dx)>36&&Math.abs(dx)>Math.abs(dy)){dx<0?next():prev();restart();lastAction=Date.now();return true}
+    if(Math.abs(dx)<8&&Math.abs(dy)<8){next();restart();lastAction=Date.now();return true}
+    return false;
+  }
+  const glass=document.getElementById("glass");
+  if(glass){
+    glass.setAttribute("role","button");
+    glass.setAttribute("tabindex","0");
+    glass.setAttribute("aria-label","滑動或點一下切換院所資訊");
+    glass.addEventListener("pointerdown",e=>{
+      if(e.target.closest("#dots"))return;
+      begin(e.clientX,e.clientY);
+    });
+    glass.addEventListener("pointerup",e=>{
+      if(!dragging||e.target.closest("#dots"))return;
+      finish(e.clientX,e.clientY);
+    });
+    glass.addEventListener("pointercancel",()=>{dragging=false});
+    glass.addEventListener("touchstart",e=>{
+      if(e.target.closest("#dots")||!e.changedTouches.length)return;
+      const t=e.changedTouches[0];begin(t.clientX,t.clientY);
+    },{passive:true});
+    glass.addEventListener("touchend",e=>{
+      if(e.target.closest("#dots")||!e.changedTouches.length||Date.now()-lastAction<120)return;
+      const t=e.changedTouches[0];finish(t.clientX,t.clientY);
+    },{passive:true});
+    glass.addEventListener("click",e=>{
+      if(e.target.closest("#dots")||Date.now()-lastAction<120)return;
+      next();restart();lastAction=Date.now();
+    });
+    glass.addEventListener("keydown",e=>{
+      if(e.key==="ArrowRight"||e.key===" "||e.key==="Enter"){e.preventDefault();next();restart()}
+      if(e.key==="ArrowLeft"){e.preventDefault();prev();restart()}
+    });
+  }
   if(!reduce)timer=setInterval(adv,4500);
 })();

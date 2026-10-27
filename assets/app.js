@@ -136,20 +136,16 @@ if(!reduce&&"IntersectionObserver" in window){
   if(langBtn)langBtn.addEventListener("click",()=>{if(menu.classList.contains("open"))build()});
 })();
 
-/* glass social-proof carousel */
+/* glass social-proof carousel: auto-advance, swipe/tap/keys to switch */
 (function(){
   const slides=[...document.querySelectorAll("#glass .gs")];
-  const wrap=document.getElementById("dots");
-  if(!slides.length||!wrap)return;
+  if(!slides.length)return;
   let ci=0,timer=null,startX=0,startY=0,dragging=false,lastAction=0;
-  slides.forEach((_,i)=>{const b=document.createElement("button");if(i===0)b.className="on";
-    b.setAttribute("aria-label","顯示第 "+(i+1)+" 則");b.addEventListener("click",()=>{show(i);restart()});wrap.appendChild(b)});
-  const dots=[...wrap.children];
-  function show(i){ci=i;slides.forEach((s,j)=>s.hidden=j!==i);dots.forEach((d,j)=>d.classList.toggle("on",j===i))}
+  function show(i){ci=i;slides.forEach((s,j)=>s.hidden=j!==i)}
   function next(){show((ci+1)%slides.length)}
   function prev(){show((ci-1+slides.length)%slides.length)}
   function adv(){next()}
-  function restart(){if(timer){clearInterval(timer);timer=setInterval(adv,4500)}}
+  function restart(){if(timer){clearInterval(timer);timer=setInterval(adv,3200)}}
   function begin(x,y){dragging=true;startX=x;startY=y}
   function finish(x,y){
     if(!dragging)return false;
@@ -164,25 +160,22 @@ if(!reduce&&"IntersectionObserver" in window){
     glass.setAttribute("role","button");
     glass.setAttribute("tabindex","0");
     glass.setAttribute("aria-label","滑動或點一下切換院所資訊");
-    glass.addEventListener("pointerdown",e=>{
-      if(e.target.closest("#dots"))return;
-      begin(e.clientX,e.clientY);
-    });
+    glass.addEventListener("pointerdown",e=>begin(e.clientX,e.clientY));
     glass.addEventListener("pointerup",e=>{
-      if(!dragging||e.target.closest("#dots"))return;
+      if(!dragging)return;
       finish(e.clientX,e.clientY);
     });
     glass.addEventListener("pointercancel",()=>{dragging=false});
     glass.addEventListener("touchstart",e=>{
-      if(e.target.closest("#dots")||!e.changedTouches.length)return;
+      if(!e.changedTouches.length)return;
       const t=e.changedTouches[0];begin(t.clientX,t.clientY);
     },{passive:true});
     glass.addEventListener("touchend",e=>{
-      if(e.target.closest("#dots")||!e.changedTouches.length||Date.now()-lastAction<120)return;
+      if(!e.changedTouches.length||Date.now()-lastAction<120)return;
       const t=e.changedTouches[0];finish(t.clientX,t.clientY);
     },{passive:true});
     glass.addEventListener("click",e=>{
-      if(e.target.closest("#dots")||Date.now()-lastAction<120)return;
+      if(Date.now()-lastAction<120)return;
       next();restart();lastAction=Date.now();
     });
     glass.addEventListener("keydown",e=>{
@@ -190,5 +183,5 @@ if(!reduce&&"IntersectionObserver" in window){
       if(e.key==="ArrowLeft"){e.preventDefault();prev();restart()}
     });
   }
-  if(!reduce)timer=setInterval(adv,4500);
+  if(!reduce)timer=setInterval(adv,3200);
 })();

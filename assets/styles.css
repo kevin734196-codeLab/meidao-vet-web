@@ -82,7 +82,7 @@ a{color:inherit;text-decoration:none}
 .scrollcue .ln{width:1px;height:32px;background:linear-gradient(#fff,transparent);animation:heroCue 1.8s var(--ease) infinite}
 @keyframes heroCue{0%{transform:scaleY(.3);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}50.1%{transform-origin:bottom}100%{transform:scaleY(.3);transform-origin:bottom}}
 @media(max-width:760px){.hero-col{max-width:none}.scrollcue{display:none}}
-@media(prefers-reduced-motion:reduce){.hero-bg.hero-photo{animation:none;transform:none}.scrollcue .ln{animation:none}}
+@media(prefers-reduced-motion:reduce){.hero-bg.hero-photo,.glass .gs{animation:none;transform:none}.scrollcue .ln{animation:none}}
 .cta-row{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
 .cta-round{display:inline-flex;align-items:center;gap:12px;background:var(--clay);color:#fff;
   border-radius:999px;padding:7px 7px 7px 22px;font-weight:500;font-size:15px;transition:.22s var(--ease)}
@@ -98,17 +98,13 @@ a{color:inherit;text-decoration:none}
 .cta-ghost svg{width:17px;height:17px;fill:currentColor}
 /* glass social-proof card */
 .glass{position:absolute;right:clamp(16px,3vw,40px);bottom:clamp(16px,3vw,40px);z-index:4;
-  width:min(330px,76vw);background:rgba(250,248,244,.15);border:1px solid rgba(255,255,255,.34);
+  width:min(300px,76vw);background:rgba(250,248,244,.15);border:1px solid rgba(255,255,255,.34);
   backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);
-  border-radius:18px;padding:22px 22px 18px;box-shadow:0 22px 54px -26px rgba(0,0,0,.55);touch-action:pan-y;cursor:pointer}
-.glass .gk{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:rgba(255,255,255,.88);margin-bottom:12px}
-.glass .gs{color:#fff;font-size:15px;line-height:1.6;min-height:4.8em;text-shadow:0 1px 10px rgba(0,0,0,.35)}
+  border-radius:18px;padding:20px 22px 22px;box-shadow:0 22px 54px -26px rgba(0,0,0,.55);touch-action:pan-y;cursor:pointer}
+.glass .gk{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.9);margin-bottom:10px}
+.glass .gs{color:#fff;font-size:20px;font-weight:500;line-height:1.5;min-height:4.5em;text-shadow:0 1px 10px rgba(0,0,0,.35);animation:gsIn .5s var(--ease)}
+@keyframes gsIn{from{opacity:0;transform:translateX(10px)}to{opacity:1;transform:none}}
 .glass .gs[hidden]{display:none}
-.dots{display:flex;gap:7px;margin-top:14px}
-.dots button{width:44px;height:44px;border-radius:50%;border:none;background:transparent;
-  cursor:pointer;padding:0;display:grid;place-items:center;transition:.25s var(--ease)}
-.dots button::before{content:"";width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.5);transition:.25s var(--ease)}
-.dots button.on::before{width:22px;border-radius:4px;background:var(--clay)}
 /* nav over photo — HOME hero only (pre-scroll = light) */
 body.home .nav:not(.scrolled):not(.menu-open) .brand,body.home .nav:not(.scrolled):not(.menu-open) .nav-links a{color:#fff}
 body.home .nav:not(.scrolled):not(.menu-open) .brand .dot{background:#fff}

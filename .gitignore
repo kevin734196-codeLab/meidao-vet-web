@@ -1,3 +1,8 @@
 .gstack/
 _preview_server.py
 .DS_Store
+# image-gen working files (site uses the .jpg exports)
+assets/media/svc-*-ghibli.png
+ghibli-prompts.md
+_rejected/
+_preview*.html

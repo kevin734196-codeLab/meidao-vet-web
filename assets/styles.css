@@ -372,3 +372,6 @@ html[data-lang="en"] .hero-display{white-space:normal;font-size:clamp(46px,6.2vw
   body:not(.home) .nav:not(.scrolled):not(.menu-open) .lang{background:rgba(251,250,247,.82);
     -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
 }
+/* .split-txt p / .story p were overriding the kicker scale (16-19px, dark) — keep one kicker style site-wide */
+.split-txt p.kicker,.story p.kicker{font-size:12px;color:var(--sage-dim);margin-bottom:12px;max-width:none}
+.band-sage .split-txt p.kicker{color:#ead6d0}

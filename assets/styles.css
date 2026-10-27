@@ -349,3 +349,7 @@ body.home .nav:not(.scrolled):not(.menu-open) .nav-toggle{color:#fff}
 /* 10% drop shadow on image cards */
 .phead-in{box-shadow:0 22px 50px -22px rgba(0,0,0,.10)}
 .split-fig.fig-photo{box-shadow:0 20px 44px -20px rgba(0,0,0,.10)}
+
+/* EN hero title is ~2.5x wider than 安心託付: let it wrap and scale down */
+html[data-lang="en"] .hero-display{white-space:normal;font-size:clamp(46px,6.2vw,104px);line-height:1}
+@media(max-width:760px){html[data-lang="en"] .hero-display{font-size:clamp(38px,11vw,72px)}}

@@ -101,8 +101,7 @@ a{color:inherit;text-decoration:none}
   width:min(300px,76vw);background:rgba(250,248,244,.15);border:1px solid rgba(255,255,255,.34);
   backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);
   border-radius:18px;padding:20px 22px 22px;box-shadow:0 22px 54px -26px rgba(0,0,0,.55);touch-action:pan-y;cursor:pointer}
-.glass .gk{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.9);margin-bottom:10px}
-.glass .gs{color:#fff;font-size:20px;font-weight:500;line-height:1.5;min-height:4.5em;text-shadow:0 1px 10px rgba(0,0,0,.35);animation:gsIn .5s var(--ease)}
+.glass .gs{display:flex;align-items:center;color:#fff;font-size:20px;font-weight:500;line-height:1.5;min-height:4.5em;text-shadow:0 1px 10px rgba(0,0,0,.35);animation:gsIn .5s var(--ease)}
 @keyframes gsIn{from{opacity:0;transform:translateX(10px)}to{opacity:1;transform:none}}
 .glass .gs[hidden]{display:none}
 /* nav over photo — HOME hero only (pre-scroll = light) */

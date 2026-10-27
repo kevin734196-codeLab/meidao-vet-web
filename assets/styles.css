@@ -367,3 +367,8 @@ html[data-lang="en"] .hero-display{white-space:normal;font-size:clamp(46px,6.2vw
     -webkit-backdrop-filter:blur(12px) saturate(120%);backdrop-filter:blur(12px) saturate(120%);
     border-radius:999px;padding:6px 6px 6px 24px}
 }
+/* mobile sub-pages pre-scroll: lang chip needs its own backing over the photo header */
+@media(max-width:880px){
+  body:not(.home) .nav:not(.scrolled):not(.menu-open) .lang{background:rgba(251,250,247,.82);
+    -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+}

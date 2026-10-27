@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "task_id": "2026-10-27-domain-connect",
+  "product_commit": "bd495ce18d5bce2f77841eceb7342d2e92acac75",
+  "status": "partial-awaiting-godaddy-ui",
+  "files": [
+    {
+      "path": "FINAL-REPORT.md",
+      "bytes": 3498,
+      "sha256": "11d569cd8ac93c3b8ea5e7b392ddca0b27a3eb929b1ea8f18fe145ac1b2131f4"
+    },
+    {
+      "path": "raw/verification.json",
+      "bytes": 978,
+      "sha256": "f87f6c77ba363bb904f7a2490a0852296f55ed2e41126531a3a3cf97a2df04e6"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "product_commit": "bd495ce18d5bce2f77841eceb7342d2e92acac75",
+  "binding_deferral_commit": "c90dd08",
+  "syntax_and_whitespace_exit_status": 0,
+  "static_line_links_passed": 17,
+  "mobile_menu_runtime_link_passed": true,
+  "github_origin_http_pages_passed": ["index.html", "services.html", "about.html", "contact.html"],
+  "github_pages_build": "built",
+  "primary_dns": ["76.223.105.230", "13.248.243.5"],
+  "www_cname": "umesima.com.",
+  "primary_dns_cutover_complete": false,
+  "chinese_domain": "xn--hhrp9uvtjp2jfm3b65f.com",
+  "chinese_forwarding_ui": "saved",
+  "chinese_forwarding_origin_http_status": 301,
+  "chinese_forwarding_location": "https://umesima.com",
+  "chinese_forwarding_public_https_verified": false,
+  "reviewer": "Peirce",
+  "code_review": "no blocking findings",
+  "safety_review": "approved scoped cutover; restore Pages binding if blocked",
+  "remaining_blocker": "GoDaddy browser lost capture and primary DNS save state could not be confirmed"
+}

@@ -133,6 +133,7 @@ if(!reduce&&"IntersectionObserver" in window){
   btn.addEventListener("click",()=>menu.classList.contains("open")?close():open());
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&menu.classList.contains("open"))close()});
   addEventListener("resize",()=>{if(innerWidth>880&&menu.classList.contains("open"))close()});
+  if(langBtn)langBtn.addEventListener("click",()=>{if(menu.classList.contains("open"))build()});
 })();
 
 /* glass social-proof carousel */

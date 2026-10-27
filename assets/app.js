@@ -9,7 +9,7 @@ const I18N = { en:{
   "hero.display":"ENTRUSTED CARE","hero.sub":"Your pet's family doctor · Xitun, Taichung",
   "hero.body":"Led by a Japan-trained director, we support pets through diagnosis, treatment, surgery, preventive care and long-term follow-up with calm, careful clinical care.",
   "card.s1":"20 years in Xitun, caring for countless families' pets.","card.s2":"Japan-trained director — consults in Chinese, English & Japanese.","card.s3":"Diagnosis, treatment and follow-up care in one clinic.",
-  "hero.t1":"in Xitun","hero.t2":"3 languages","hero.t3":"medical care","hero.b1u":" yrs","hero.b2":"ZH · EN · JA","hero.b3":"Exam · Test · Follow-up","vacc.b1":"Rabies","vacc.b2":"Recheck","vacc.b3":"Prevention",
+  "hero.t1":"in Xitun","hero.t2":"Mandarin · English · Japanese","hero.t3":"medical care","hero.b1u":" yrs","hero.b2":"Trilingual","hero.b3":"Exam · Test · Follow-up","vacc.b1":"Rabies","vacc.b2":"Recheck","vacc.b3":"Prevention",
   /* home pet scroll-film */
   "pet.kicker":"Everyday at 梅島","pet.h2":"Here, every visit stays calm","pet.sub":"A quiet clinic flow, careful observation and clear follow-up guidance help pets receive care with less stress.",
   /* home 院所環境 split */

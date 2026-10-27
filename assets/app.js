@@ -31,7 +31,7 @@ const I18N = { en:{
   /* visit / hours */
   "visit.kicker":"Visit us","visit.h2":"Booking welcome","visit.addrk":"Address","visit.telk":"Phone","visit.hrk":"Mon–Sat","visit.sunk":"Sunday","visit.sunv":"Closed","visit.map":"Open in Google Maps",
   /* footer */
-  "foot.tag":"Xitun, Taichung · 20 years of refined Japanese care<br>Diagnosis · Surgery · Preventive care","foot.contact":"Contact","foot.hours":"Hours","foot.hr1":"Mon–Sat　09:00 – 21:30","foot.hr2":"Sunday　Closed","foot.note":"Site not yet live",
+  "foot.tag":"Xitun, Taichung · 20 years of refined Japanese care<br>Diagnosis · Surgery · Preventive care","foot.contact":"Contact","foot.hours":"Hours","foot.hr1":"Mon–Sat　09:00 – 21:30","foot.hr2":"Sunday　Closed","foot.note":"Umesima Animal Hospital",
 
   /* ===== SERVICES page ===== */
   "sp.kicker":"Clinical care","sp.h1":"Diagnosis, treatment and long-term care","sp.sub":"From routine consultation to surgery, dental care, preventive care and follow-up, we support each pet's health over time.",
@@ -122,7 +122,7 @@ if(!reduce&&"IntersectionObserver" in window){
     const lineT=mb[0]?mb[0].textContent:"LINE";
     const callT=mb[1]?mb[1].textContent:"Tel";
     menu.innerHTML=items+
-      `<div class="m-line"><a class="line" href="#" data-line>${lineT}</a>`+
+      `<div class="m-line"><a class="line" href="https://lin.ee/q2NhyMW" data-line>${lineT}</a>`+
       `<a class="call" href="tel:+886424626616">${callT}</a></div>`;
     menu.querySelectorAll("a").forEach(a=>a.addEventListener("click",close));
   }

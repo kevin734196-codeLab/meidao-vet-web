@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /hero-demo.html
+Disallow: /mist-demo.html
+
+Sitemap: https://umesima.com/sitemap.xml

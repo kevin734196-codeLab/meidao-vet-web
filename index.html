@@ -11,7 +11,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>梅島動物醫院｜台中西屯 20 年・日式精緻醫療</title>
-<meta name="description" content="梅島動物醫院 — 台中西屯區 20 年動物醫院。留日院長主持，日式精緻醫療，提供診斷治療、外科手術、預防照護與長期健康追蹤。週一至週六 09:00–21:30。" />
+<meta name="description" content="梅島動物醫院 — 台中西屯區 20 年動物醫院。留日院長主持，日式精緻醫療，提供診斷治療、外科手術、預防照護與長期健康追蹤。週一至週五 09:00–20:00（午休 12:00–14:00），週六至 18:00。" />
 <meta property="og:title" content="梅島動物醫院｜台中西屯・日式精緻醫療" />
 <meta property="og:description" content="留日院長主持，日式精緻醫療。診斷治療、外科手術、預防照護與長期健康追蹤。台中西屯路三段148之37號。" />
 <meta property="og:type" content="website" />
@@ -23,7 +23,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="assets/styles.css?v=35" />
-<script src="assets/app.js?v=33" defer></script>
+<script src="assets/app.js?v=34" defer></script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebSite","name":"梅島動物醫院","alternateName":["Umesima","umesima.com"],"url":"https://umesima.com/"}
 </script>
@@ -46,12 +46,7 @@
     "addressRegion": "台中市",
     "addressCountry": "TW"
   },
-  "openingHoursSpecification": [{
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-    "opens": "09:00",
-    "closes": "21:30"
-  }],
+  "openingHoursSpecification": [{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"12:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"14:00","closes":"20:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday"],"opens":"09:00","closes":"12:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday"],"opens":"14:00","closes":"18:00"}],
   "sameAs": ["https://www.facebook.com/profile.php?id=100063917255991"]
 }
 </script>
@@ -191,7 +186,8 @@
       <h2 class="serif" style="font-size:clamp(26px,3.4vw,40px);font-weight:600;margin:14px 0 26px" data-i18n="visit.h2">歡迎預約來訪</h2>
       <div class="info-row"><span class="k" data-i18n="visit.addrk">地址</span><span class="v">台中市西屯區西屯路三段148之37號</span></div>
       <div class="info-row"><span class="k" data-i18n="visit.telk">電話</span><span class="v"><a href="tel:+886424626616">04-2462-6616</a></span></div>
-      <div class="info-row"><span class="k" data-i18n="visit.hrk">週一至週六</span><span class="v">09:00 – 21:30</span></div>
+      <div class="info-row"><span class="k" data-i18n="visit.hrk">週一至週五</span><span class="v">09:00 – 12:00・14:00 – 20:00</span></div>
+      <div class="info-row"><span class="k" data-i18n="visit.satk">週六</span><span class="v">09:00 – 12:00・14:00 – 18:00</span></div>
       <div class="info-row"><span class="k" data-i18n="visit.sunk">週日</span><span class="v closed" data-i18n="visit.sunv">固定休診</span></div>
     </div>
     <div>
@@ -220,7 +216,8 @@
       </div>
       <div>
         <h4 data-i18n="foot.hours">門診時間</h4>
-        <p data-i18n="foot.hr1">週一至週六　09:00 – 21:30</p>
+        <p data-i18n="foot.hr1">週一至週五　09:00 – 12:00・14:00 – 20:00</p>
+        <p data-i18n="foot.hrsat">週六　09:00 – 12:00・14:00 – 18:00</p>
         <p data-i18n="foot.hr2">週日　固定休診</p>
       </div>
     </div>

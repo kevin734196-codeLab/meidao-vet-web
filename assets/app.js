@@ -29,9 +29,9 @@ const I18N = { en:{
   "vacc.p":"Once your pet is linked, we'll proactively remind you on LINE before rabies vaccines, preventive care and regular rechecks.",
   "vacc.cta":"Add LINE for reminders","vacc.l1":"Reminded 30 days before due","vacc.l2":"Never miss a chronic recheck","vacc.l3":"Preventive care follow-up",
   /* visit / hours */
-  "visit.kicker":"Visit us","visit.h2":"Booking welcome","visit.addrk":"Address","visit.telk":"Phone","visit.hrk":"Mon–Sat","visit.sunk":"Sunday","visit.sunv":"Closed","visit.map":"Open in Google Maps",
+  "visit.kicker":"Visit us","visit.h2":"Booking welcome","visit.addrk":"Address","visit.telk":"Phone","visit.hrk":"Mon–Fri","visit.satk":"Saturday","visit.sunk":"Sunday","visit.sunv":"Closed","visit.map":"Open in Google Maps",
   /* footer */
-  "foot.tag":"Xitun, Taichung · 20 years of refined Japanese care<br>Diagnosis · Surgery · Preventive care","foot.contact":"Contact","foot.hours":"Hours","foot.hr1":"Mon–Sat　09:00 – 21:30","foot.hr2":"Sunday　Closed","foot.note":"Umesima Animal Hospital",
+  "foot.tag":"Xitun, Taichung · 20 years of refined Japanese care<br>Diagnosis · Surgery · Preventive care","foot.contact":"Contact","foot.hours":"Hours","foot.hr1":"Mon–Fri　09:00 – 12:00 · 14:00 – 20:00","foot.hrsat":"Saturday　09:00 – 12:00 · 14:00 – 18:00","foot.hr2":"Sunday　Closed","foot.note":"Umesima Animal Hospital",
 
   /* ===== SERVICES page ===== */
   "sp.kicker":"Clinical care","sp.h1":"Diagnosis, treatment and long-term care","sp.sub":"From routine consultation to surgery, dental care, preventive care and follow-up, we support each pet's health over time.",

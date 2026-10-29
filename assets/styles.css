@@ -23,7 +23,7 @@ a{color:inherit;text-decoration:none}
 /* ---------- nav ---------- */
 .nav{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .4s var(--ease),box-shadow .4s var(--ease);}
 .nav-in{display:flex;align-items:center;justify-content:space-between;height:82px;max-width:var(--maxw);margin:0 auto;padding:0 28px}
-.brand{font-family:var(--serif);font-weight:700;font-size:21px;letter-spacing:.04em;color:var(--ink);display:flex;align-items:center;gap:10px}
+.brand{font-family:var(--serif);font-weight:700;font-size:21px;letter-spacing:.04em;color:var(--ink);display:flex;align-items:center;gap:15px}
 .nav .brand{min-height:44px}
 .brand .logo{height:40px;width:auto;flex:none}
 .brand-t{display:flex;flex-direction:column;line-height:1.05}

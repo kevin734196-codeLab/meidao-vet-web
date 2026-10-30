@@ -411,3 +411,13 @@ html[data-lang="en"] .hero-display{white-space:normal;font-size:clamp(46px,6.2vw
   .story-split .sched-h{text-align:left}
   .story-split .sched-note{text-align:left;margin-left:0}
 }
+.sched-d{display:none}
+@media(min-width:881px){
+  .sched-m{display:none}.sched-d{display:table}
+  .sched-d thead th:first-child,.sched-d tbody th{width:15%}
+  .sched-d thead th{font-size:clamp(13px,1.2vw,15px);font-weight:400;padding:12px 2px}
+  .sched-d tbody th{font-size:clamp(12px,1.1vw,14px);font-weight:300;line-height:1.35;letter-spacing:.02em}
+  .sched-d td{padding:16px 2px;font-size:clamp(13px,1.15vw,15px)}
+  .sched-d td.two div{padding:9px 2px}
+  .sched-d .off.v{letter-spacing:.3em;writing-mode:vertical-rl}
+}

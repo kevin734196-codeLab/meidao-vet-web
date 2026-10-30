@@ -402,3 +402,12 @@ html[data-lang="en"] .hero-display{white-space:normal;font-size:clamp(46px,6.2vw
 .sched-t small{display:block;font-size:.8em;margin-top:2px}
 .sched-t .off{letter-spacing:.4em}
 .story .sched-note{font-size:14px;letter-spacing:.12em;margin:12px auto 0;color:var(--ink)}
+@media(min-width:881px){
+  .story-split{max-width:1180px;display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,5vw,80px);align-items:center;text-align:left}
+  .story-split .story h2,.story-split h2{font-size:clamp(30px,3.4vw,46px)}
+  .story-split .story-txt p{margin-left:0}
+  .story-split .story-line{display:none}
+  .story-split .sched{margin:0;max-width:none}
+  .story-split .sched-h{text-align:left}
+  .story-split .sched-note{text-align:left;margin-left:0}
+}

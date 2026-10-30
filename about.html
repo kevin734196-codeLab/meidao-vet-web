@@ -17,8 +17,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="assets/styles.css?v=38" />
-<script src="assets/app.js?v=34" defer></script>
+<link rel="stylesheet" href="assets/styles.css?v=39" />
+<script src="assets/app.js?v=35" defer></script>
 </head>
 <body>
 
@@ -59,6 +59,22 @@
     <p data-i18n="ab.p2">他把<span class="em">日式的細心、安靜、精準</span>帶進診間，並不定期返日進修，把更先進的技術與藥品帶回來。</p>
     <p data-i18n="ab.p3">20 年下來，這套標準如今支撐著每一次診斷、每一台手術、每一次回診與長期健康管理。</p>
     <div class="story-line"></div>
+    <div class="sched">
+      <h3 class="sched-h" data-i18n="sch.h">門診時間表</h3>
+      <table class="sched-t">
+        <thead><tr><th></th><th>09:00<br>– 12:00</th><th>14:00<br>– 17:00</th><th>17:00<br>– 20:00</th></tr></thead>
+        <tbody>
+        <tr><th scope="row" data-i18n="sch.mon">星期一</th><td><span data-i18n="sch.tu">涂醫師</span></td><td><span data-i18n="sch.tu">涂醫師</span></td><td><span data-i18n="sch.tu">涂醫師</span></td></tr>
+        <tr><th scope="row" data-i18n="sch.tue">星期二</th><td class="lai"><span data-i18n="sch.lai">賴醫師</span></td><td class="lai"><span data-i18n="sch.lai">賴醫師</span></td><td><span data-i18n="sch.tu">涂醫師</span></td></tr>
+        <tr><th scope="row" data-i18n="sch.wed">星期三</th><td><span data-i18n="sch.tu">涂醫師</span></td><td><span data-i18n="sch.tu">涂醫師</span></td><td><span data-i18n="sch.tu">涂醫師</span></td></tr>
+        <tr><th scope="row" data-i18n="sch.thu">星期四</th><td class="two"><div class="lai"><span data-i18n="sch.lai">賴醫師</span></div><div><span data-i18n="sch.tu">涂醫師</span></div></td><td class="two"><div class="lai"><span data-i18n="sch.lai">賴醫師</span></div><div><span data-i18n="sch.tu">涂醫師</span></div></td><td><span data-i18n="sch.tu">涂醫師</span></td></tr>
+        <tr><th scope="row" data-i18n="sch.fri">星期五</th><td class="two"><div class="lai"><span data-i18n="sch.lai">賴醫師</span></div><div><span data-i18n="sch.tu">涂醫師</span></div></td><td class="two"><div class="lai"><span data-i18n="sch.lai">賴醫師</span></div><div><span data-i18n="sch.tu">涂醫師</span></div></td><td><span data-i18n="sch.tu">涂醫師</span></td></tr>
+        <tr><th scope="row" data-i18n="sch.sat">星期六</th><td><span data-i18n="sch.tu">涂醫師</span></td><td><span data-i18n="sch.tu">涂醫師</span></td><td><span data-i18n="sch.tu">涂醫師</span><small data-i18n="sch.sat18">至 18:00</small></td></tr>
+        <tr><th scope="row" data-i18n="sch.sun">星期日</th><td colspan="3" class="off" data-i18n="sch.off">休診</td></tr>
+        </tbody>
+      </table>
+      <p class="sched-note" data-i18n="sch.lunch">12:00 – 14:00 午休</p>
+    </div>
   </div>
 </section>
 

@@ -386,3 +386,19 @@ html[data-lang="en"] .hero-display{white-space:normal;font-size:clamp(46px,6.2vw
     -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 22%,#000 80%,transparent 100%);
     mask-image:linear-gradient(180deg,transparent 0,#000 22%,#000 80%,transparent 100%)}
 }
+
+/* clinic schedule (about · 院長的話) */
+.sched{margin:46px auto 0;max-width:620px}
+.sched-h{font-family:var(--serif);font-weight:700;font-size:clamp(22px,2.4vw,28px);letter-spacing:.2em;margin:0 0 20px}
+.sched-t{width:100%;border-collapse:collapse;table-layout:fixed;font-size:clamp(14px,1.5vw,16px);font-weight:300;color:var(--ink);background:#fff}
+.sched-t th,.sched-t td{border:1px solid var(--ink);padding:12px 6px;text-align:center;vertical-align:middle;font-weight:300}
+.sched-t thead th{font-size:clamp(12px,1.3vw,14px);line-height:1.35;letter-spacing:.04em;background:#fff}
+.sched-t thead th:first-child,.sched-t tbody th{width:22%}
+.sched-t tbody th{font-weight:400;letter-spacing:.08em}
+.sched-t .lai{background:#F7EDE6}
+.sched-t td.two{padding:0}
+.sched-t td.two div{padding:7px 4px}
+.sched-t td.two div+div{border-top:1px solid var(--ink)}
+.sched-t small{display:block;font-size:.8em;margin-top:2px}
+.sched-t .off{letter-spacing:.4em}
+.story .sched-note{font-size:14px;letter-spacing:.12em;margin:12px auto 0;color:var(--ink)}

@@ -45,6 +45,7 @@ const I18N = { en:{
   "ap.kicker":"About 梅島","ap.h1":"A Japanese standard of care, in Xitun","ap.sub":"Twenty years caring for the neighbourhood's pets, led by a Japan-trained director.",
   "ab.h":"Bringing Japan back to every visit","ab.p1":"Dr. Tu, our director, trained in Japan and consults in Chinese, English and Japanese — which is why expat families across the city find their way here.",
   "ab.p2":"He brings a <span class='em'>refined, quiet, attentive</span> Japanese standard into the consult room, and returns to Japan regularly to bring back newer techniques and medicines.",
+  "sch.h":"Clinic schedule","sch.tu":"Dr. Tu","sch.lai":"Dr. Lai","sch.mon":"Mon","sch.tue":"Tue","sch.wed":"Wed","sch.thu":"Thu","sch.fri":"Fri","sch.sat":"Sat","sch.sat18":"until 18:00","sch.sun":"Sun","sch.off":"Closed","sch.lunch":"12:00 – 14:00 lunch break",
   "ab.p3":"Twenty years in, that same standard now sits behind every diagnosis, every surgery, every recheck and every long-term health plan.",
   "ph.k":"Our standard","ph.h":"Three things we never rush",
   "ph1.t":"Careful","ph1.p":"Small signs matter. We examine thoroughly and explain what we find, plainly.",
